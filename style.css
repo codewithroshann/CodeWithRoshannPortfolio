@@ -1,0 +1,633 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-weight: bold;
+
+  }
+
+  html {
+    scroll-behavior:smooth;
+    scroll-padding: 5rem;
+  }
+
+  .body {
+    background-color: #ebe9e9 !important;
+
+  }
+
+  .bg-body-tertiary {
+    position: sticky !important;
+    top: 0px;
+    z-index: 10;
+    filter: drop-shadow(2px 8px 10px rgb(150, 143, 143));
+  }
+
+  .main-container {
+    height: 100%;
+    background-color: #ebe9e9 !important;
+    ;
+  }
+
+  .container1 {
+    margin: 25px 15px;
+    background-color: white;
+    padding: 40px 20px;
+    display: flex;
+
+    justify-content: space-around;
+    border-radius: 10px;
+    filter: drop-shadow(0px 8px 8px rgb(150, 143, 143));
+  }
+
+  .text-container {
+    width: 45%;
+    color: gray;
+    margin: auto;
+  }
+  .name-text{
+    width: 19rem;
+  }
+
+  .discription {
+    display: block;
+  }
+
+  .img-logo {
+    width: 45%;
+  }
+
+  .imageitem {
+    height: 100%;
+    width: 100%;
+    filter: drop-shadow(2px 8px 10px rgb(150, 143, 143));
+  }
+
+  .name-text {
+    font-size: x-large;
+    color: black;
+    filter: drop-shadow(2px 8px 10px rgb(150, 143, 143));
+  }
+
+  .roshan {
+    color: rgb(153, 0, 255);
+  }
+
+  .cv {
+    margin: 25px 0px;
+    filter: drop-shadow(2px 3px 4px rgb(150, 143, 143));
+  }
+  .disc{
+  color: gray; 
+   width: 95%; 
+     margin: auto;
+  }
+
+  /*container2*/
+  .about-container {
+    margin: 25px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+    filter: drop-shadow(2px 3px 4px rgb(150, 143, 143));
+    flex-wrap: wrap;
+
+
+  }
+
+  .container2 {
+margin: auto;
+  width: 80%;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    filter: drop-shadow(0px 8px 8px rgb(150, 143, 143));
+  }
+
+  .image {
+    width: 50%;
+  }
+
+  .myimage {
+    height: 505px;
+    filter: drop-shadow(2px 3px 4px rgb(150, 143, 143));
+   }
+
+  .about {
+    width: 100%;
+
+  }
+
+  .about-refrence {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .value {
+    color: gray;
+  }
+
+  .banner-section {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(2px 3px 4px rgb(150, 143, 143));
+  }
+
+  .skill-banner {
+    margin: 25px 15px;
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    filter: drop-shadow(0px 8px 8px rgb(150, 143, 143))
+  }
+
+  .skill-container {
+    margin: 25px 15px;
+    height: 35vh;
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    filter: drop-shadow(0px 8px 8px rgb(150, 143, 143))
+  }
+
+  .skill-mini-container-1 {
+    margin: 25px 15px;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+    filter: drop-shadow(2px 3px 4px rgb(150, 143, 143));
+
+
+  }
+
+  .skill-mini-container-2 {
+    margin: 25px 15px;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+    filter: drop-shadow(2px 3px 4px rgb(150, 143, 143));
+
+
+  }
+
+  .png-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icon-png {
+    height: 100%;
+
+    filter: drop-shadow(0px 8px 8px rgb(150, 143, 143));
+  }
+
+  .css-png {
+    height: 65% !important;
+
+  }
+
+  .skill-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+  }
+
+  /*project-section*/
+  .project-section {
+    margin: 25px 15px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow: scroll;
+  }
+
+  .card {
+    margin: 0px 45px;
+    filter: drop-shadow(0px 8px 8px rgb(150, 143, 143));
+
+  }
+  .project-card{
+    margin-bottom: 30px;
+  }
+
+  .card-text {
+    color: gray;
+  }
+
+  /*contact section*/
+  .contact-container {
+    margin: 25px 15px;
+    padding: 20px 0;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    filter: drop-shadow(0px 8px 8px rgb(150, 143, 143));
+  }
+
+  .mini-contact {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .input {
+    padding: 5px;
+    width: 100%;
+  }
+
+  /*service section*/
+  .pt-5 {
+    padding-top: 4rem !important;
+    height: 59rem;
+  }
+
+  .service-content {
+    background-color: white;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0px 0px 30px 0px;
+    border-radius: 10px;
+    filter: drop-shadow(0px 8px 8px rgb(150, 143, 143));
+  }
+
+  .icon-container {
+    width: 100%;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .icon-ring {
+    height: 100%;
+    width: 99%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #3f51b5;
+    filter: drop-shadow(0px 8px 8px rgb(150, 143, 143));
+  }
+
+  .text-center {
+    color: gray;
+    font-size: smaller;
+    width: 65%;
+
+  }
+
+  .h1,
+  h2 {
+    font-size: 25px !important;
+  }
+
+  /*footer-section*/
+  .footer-section {
+    margin: 25px 0px 0px 0px;
+    height: 150px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+
+  .inner-footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+  }
+
+  /*Resposive - section*/
+
+  /*1st-container*/
+  @media screen and (max-width:950px) {
+    .container2{
+      display: block;
+    }
+    .image{
+      width: 100%;
+      display: flex;
+      border: 2px solid #3f51b5;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+          }
+          .myimage{
+            margin: auto;
+        }
+        .about{
+          text-align: center;
+          margin-top: 30px;
+        }
+        .about h2{
+          margin: auto;
+        }
+        .intro{
+          margin: auto !important;
+        }
+        .refrence{
+          margin:auto;
+        }
+    }
+
+ 
+  @media screen and (max-width:750px) {
+    .container1 {
+    flex-direction: column-reverse;
+    padding: 20px 20px;
+    }
+    .text-container{
+      width: 100%;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+ 
+    }
+    .img-logo{
+      margin: auto;
+    width: 100%;
+    }
+    .name-text{
+      width: 90%;
+      text-align: center;
+      margin: auto;
+    }
+    .discription{
+      text-align: center;
+    }
+
+  }
+
+  @media screen and (max-width:700px) {
+    .container1 {
+      flex-direction: column-reverse;
+    }
+
+    .text-container {
+      width: 90%;
+    }
+
+    .img-container {
+      width: 90%;
+    }
+
+    .imageitem {
+      width: 90%;
+    }
+   
+
+
+
+  }
+
+  @media screen and (max-width:600px) {
+    .container1 {
+      justify-content: center;
+    }
+
+    .name-text {
+      font-size: 22px;
+
+    }
+
+    .img-container {
+      height: 70vh;
+    }
+
+    .imageitem {
+      width: 100%;
+    }
+
+  }
+
+  @media screen and (max-width:400px) {
+    .container1 {
+      height: 100vh;
+
+    }
+
+    .text-container {
+      height: 60vh;
+      font-size: 13px;
+    }
+
+    .name-text {
+      font-size: x-large;
+    }
+
+    .img-container {
+      height: 70vh;
+    }
+
+    .container2 {
+      height: 85vh;
+    }
+
+    .value {
+      font-size: 13px;
+    }
+
+
+
+    .skill-mini-container-1 {
+      height: 100vh !important;
+      margin: 80px 15px;
+    }
+
+    .container3 {
+      height: 50%;
+
+    }
+
+    .container4 {
+      height: 50%;
+
+    }
+
+    .png-container {
+      height: 40%;
+      border: 2px solid #3f51b5;
+    }
+
+    .skill-container {
+      flex-direction: column;
+
+    }
+
+    .skill-section {
+      align-items: center;
+      height: 60%;
+      justify-content: center;
+    }
+
+    .progress {
+      margin: 15px 0px;
+    }
+
+
+
+
+    .skill-mini-container-2 {
+      height: 100vh !important;
+      margin: 80px 15px;
+    }
+
+    .container5 {
+      height: 50%;
+
+    }
+
+    .container6 {
+      height: 50%;
+
+    }
+
+
+    .services-mf {
+      height: 100%;
+
+    }
+
+    .container {
+      height: 100% !important;
+    }
+
+  }
+
+
+
+  /*about-Section*/
+  @media screen and (max-width:800px) {
+    .container2 {
+      width: 100%;
+    }
+
+  }
+
+
+
+  @media screen and (max-width:650px) {
+
+    .intro {
+      font-size: 13px;
+    }
+
+  }
+
+  @media screen and (max-width:500px) {
+    .about-container {
+      height: 100vh;
+    }
+
+    .copyright-section {
+      font-size: 13px;
+    }
+
+    .container2 {
+      height: 85vh;
+      flex-wrap: wrap;
+    }
+
+    .image {
+      width: 100%;
+      height: 40%;
+      border: 2px solid #3f51b5;
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+      display: flex;
+      align-content: center;
+      justify-content: center;
+    }
+
+    .myimage {
+      height: 100%;
+      position: relative;
+      left: 0px;
+      bottom: 0px;
+    }
+
+    .about-refrence {
+      flex-direction: row;
+      height: 60%;
+    }
+
+    .about {    
+      width: 50%;
+     }
+
+    .refrence {
+      width: 50%;
+      margin: 25px 0px 0px 0px;
+    }
+
+    .intro {
+      height: 80%;
+    }
+  }
+
+  @media screen and(max-width:350px) {
+    .container2 {
+      height: 85vh;
+
+    }
+
+  }
+
+  @media screen and (max-width:800px) {
+    .skill-mini-container-1 {
+      height: 80vh;
+      flex-direction: column;
+    }
+
+    .skill-container {
+      width: 100%;
+    }
+
+    .skill-mini-container-2 {
+      height: 80vh;
+      flex-direction: column;
+    }
+  }
+
+  @media screen and (max-width:750px) {
+    .pt-5 {
+      height: 165rem;
+    }
+
+  }
